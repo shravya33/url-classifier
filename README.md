@@ -1,3 +1,4 @@
+## URL CLassification Model
 This is a machine learning-based model which classifies the URLs into different risk levels (Low, Medium, High)
 
  ## 
@@ -20,7 +21,7 @@ use -f or --file to classify URLs contained in a TXT file (with one URL per line
 use -o or --output to store the output results into a TXT file
 
 example:
-```
+``` bash
 python test_model.py -u youtube.com
 python test_model.py -f urls.txt
 python test_model.py -f urls.txt -o analysis_result
